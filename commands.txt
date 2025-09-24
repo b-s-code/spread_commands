@@ -1,259 +1,259 @@
-echo Running command 0
-echo Running command 1
-echo Running command 2
-echo Running command 3
-echo Running command 4
-echo Running command 5
-echo Running command 6
-echo Running command 7
-echo Running command 8
-echo Running command 9
-echo Running command 10
-echo Running command 11
-echo Running command 12
-echo Running command 13
-echo Running command 14
-echo Running command 15
-echo Running command 16
-echo Running command 17
-echo Running command 18
-echo Running command 19
-echo Running command 20
-echo Running command 21
-echo Running command 22
-echo Running command 23
-echo Running command 24
-echo Running command 25
-echo Running command 26
-echo Running command 27
-echo Running command 28
-echo Running command 29
-echo Running command 30
-echo Running command 31
-echo Running command 32
-echo Running command 33
-echo Running command 34
-echo Running command 35
-echo Running command 36
-echo Running command 37
-echo Running command 38
-echo Running command 39
-echo Running command 40
-echo Running command 41
-echo Running command 42
-echo Running command 43
-echo Running command 44
-echo Running command 45
-echo Running command 46
-echo Running command 47
-echo Running command 48
-echo Running command 49
-echo Running command 50
-echo Running command 51
-echo Running command 52
-echo Running command 53
-echo Running command 54
-echo Running command 55
-echo Running command 56
-echo Running command 57
-echo Running command 58
-echo Running command 59
-echo Running command 60
-echo Running command 61
-echo Running command 62
-echo Running command 63
-echo Running command 64
-echo Running command 65
-echo Running command 66
-echo Running command 67
-echo Running command 68
-echo Running command 69
-echo Running command 70
-echo Running command 71
-echo Running command 72
-echo Running command 73
-echo Running command 74
-echo Running command 75
-echo Running command 76
-echo Running command 77
-echo Running command 78
-echo Running command 79
-echo Running command 80
-echo Running command 81
-echo Running command 82
-echo Running command 83
-echo Running command 84
-echo Running command 85
-echo Running command 86
-echo Running command 87
-echo Running command 88
-echo Running command 89
-echo Running command 90
-echo Running command 91
-echo Running command 92
-echo Running command 93
-echo Running command 94
-echo Running command 95
-echo Running command 96
-echo Running command 97
-echo Running command 98
-echo Running command 99
-echo Running command 100
-echo Running command 101
-echo Running command 102
-echo Running command 103
-echo Running command 104
-echo Running command 105
-echo Running command 106
-echo Running command 107
-echo Running command 108
-echo Running command 109
-echo Running command 110
-echo Running command 111
-echo Running command 112
-echo Running command 113
-echo Running command 114
-echo Running command 115
-echo Running command 116
-echo Running command 117
-echo Running command 118
-echo Running command 119
-echo Running command 120
-echo Running command 121
-echo Running command 122
-echo Running command 123
-echo Running command 124
-echo Running command 125
-echo Running command 126
-echo Running command 127
-echo Running command 128
-echo Running command 129
-echo Running command 130
-echo Running command 131
-echo Running command 132
-echo Running command 133
-echo Running command 134
-echo Running command 135
-echo Running command 136
-echo Running command 137
-echo Running command 138
-echo Running command 139
-echo Running command 140
-echo Running command 141
-echo Running command 142
-echo Running command 143
-echo Running command 144
-echo Running command 145
-echo Running command 146
-echo Running command 147
-echo Running command 148
-echo Running command 149
-echo Running command 150
-echo Running command 151
-echo Running command 152
-echo Running command 153
-echo Running command 154
-echo Running command 155
-echo Running command 156
-echo Running command 157
-echo Running command 158
-echo Running command 159
-echo Running command 160
-echo Running command 161
-echo Running command 162
-echo Running command 163
-echo Running command 164
-echo Running command 165
-echo Running command 166
-echo Running command 167
-echo Running command 168
-echo Running command 169
-echo Running command 170
-echo Running command 171
-echo Running command 172
-echo Running command 173
-echo Running command 174
-echo Running command 175
-echo Running command 176
-echo Running command 177
-echo Running command 178
-echo Running command 179
-echo Running command 180
-echo Running command 181
-echo Running command 182
-echo Running command 183
-echo Running command 184
-echo Running command 185
-echo Running command 186
-echo Running command 187
-echo Running command 188
-echo Running command 189
-echo Running command 190
-echo Running command 191
-echo Running command 192
-echo Running command 193
-echo Running command 194
-echo Running command 195
-echo Running command 196
-echo Running command 197
-echo Running command 198
-echo Running command 199
-echo Running command 200
-echo Running command 201
-echo Running command 202
-echo Running command 203
-echo Running command 204
-echo Running command 205
-echo Running command 206
-echo Running command 207
-echo Running command 208
-echo Running command 209
-echo Running command 210
-echo Running command 211
-echo Running command 212
-echo Running command 213
-echo Running command 214
-echo Running command 215
-echo Running command 216
-echo Running command 217
-echo Running command 218
-echo Running command 219
-echo Running command 220
-echo Running command 221
-echo Running command 222
-echo Running command 223
-echo Running command 224
-echo Running command 225
-echo Running command 226
-echo Running command 227
-echo Running command 228
-echo Running command 229
-echo Running command 230
-echo Running command 231
-echo Running command 232
-echo Running command 233
-echo Running command 234
-echo Running command 235
-echo Running command 236
-echo Running command 237
-echo Running command 238
-echo Running command 239
-echo Running command 240
-echo Running command 241
-echo Running command 242
-echo Running command 243
-echo Running command 244
-echo Running command 245
-echo Running command 246
-echo Running command 247
-echo Running command 248
-echo Running command 249
-echo Running command 250
-echo Running command 251
-echo Running command 252
-echo Running command 253
-echo Running command 254
-echo Running command 255
-echo Running command 256
-echo Running command 257
-echo Running command 258
+echo Running command 0 on $(hostname)
+echo Running command 1 on $(hostname)
+echo Running command 2 on $(hostname)
+echo Running command 3 on $(hostname)
+echo Running command 4 on $(hostname)
+echo Running command 5 on $(hostname)
+echo Running command 6 on $(hostname)
+echo Running command 7 on $(hostname)
+echo Running command 8 on $(hostname)
+echo Running command 9 on $(hostname)
+echo Running command 10 on $(hostname)
+echo Running command 11 on $(hostname)
+echo Running command 12 on $(hostname)
+echo Running command 13 on $(hostname)
+echo Running command 14 on $(hostname)
+echo Running command 15 on $(hostname)
+echo Running command 16 on $(hostname)
+echo Running command 17 on $(hostname)
+echo Running command 18 on $(hostname)
+echo Running command 19 on $(hostname)
+echo Running command 20 on $(hostname)
+echo Running command 21 on $(hostname)
+echo Running command 22 on $(hostname)
+echo Running command 23 on $(hostname)
+echo Running command 24 on $(hostname)
+echo Running command 25 on $(hostname)
+echo Running command 26 on $(hostname)
+echo Running command 27 on $(hostname)
+echo Running command 28 on $(hostname)
+echo Running command 29 on $(hostname)
+echo Running command 30 on $(hostname)
+echo Running command 31 on $(hostname)
+echo Running command 32 on $(hostname)
+echo Running command 33 on $(hostname)
+echo Running command 34 on $(hostname)
+echo Running command 35 on $(hostname)
+echo Running command 36 on $(hostname)
+echo Running command 37 on $(hostname)
+echo Running command 38 on $(hostname)
+echo Running command 39 on $(hostname)
+echo Running command 40 on $(hostname)
+echo Running command 41 on $(hostname)
+echo Running command 42 on $(hostname)
+echo Running command 43 on $(hostname)
+echo Running command 44 on $(hostname)
+echo Running command 45 on $(hostname)
+echo Running command 46 on $(hostname)
+echo Running command 47 on $(hostname)
+echo Running command 48 on $(hostname)
+echo Running command 49 on $(hostname)
+echo Running command 50 on $(hostname)
+echo Running command 51 on $(hostname)
+echo Running command 52 on $(hostname)
+echo Running command 53 on $(hostname)
+echo Running command 54 on $(hostname)
+echo Running command 55 on $(hostname)
+echo Running command 56 on $(hostname)
+echo Running command 57 on $(hostname)
+echo Running command 58 on $(hostname)
+echo Running command 59 on $(hostname)
+echo Running command 60 on $(hostname)
+echo Running command 61 on $(hostname)
+echo Running command 62 on $(hostname)
+echo Running command 63 on $(hostname)
+echo Running command 64 on $(hostname)
+echo Running command 65 on $(hostname)
+echo Running command 66 on $(hostname)
+echo Running command 67 on $(hostname)
+echo Running command 68 on $(hostname)
+echo Running command 69 on $(hostname)
+echo Running command 70 on $(hostname)
+echo Running command 71 on $(hostname)
+echo Running command 72 on $(hostname)
+echo Running command 73 on $(hostname)
+echo Running command 74 on $(hostname)
+echo Running command 75 on $(hostname)
+echo Running command 76 on $(hostname)
+echo Running command 77 on $(hostname)
+echo Running command 78 on $(hostname)
+echo Running command 79 on $(hostname)
+echo Running command 80 on $(hostname)
+echo Running command 81 on $(hostname)
+echo Running command 82 on $(hostname)
+echo Running command 83 on $(hostname)
+echo Running command 84 on $(hostname)
+echo Running command 85 on $(hostname)
+echo Running command 86 on $(hostname)
+echo Running command 87 on $(hostname)
+echo Running command 88 on $(hostname)
+echo Running command 89 on $(hostname)
+echo Running command 90 on $(hostname)
+echo Running command 91 on $(hostname)
+echo Running command 92 on $(hostname)
+echo Running command 93 on $(hostname)
+echo Running command 94 on $(hostname)
+echo Running command 95 on $(hostname)
+echo Running command 96 on $(hostname)
+echo Running command 97 on $(hostname)
+echo Running command 98 on $(hostname)
+echo Running command 99 on $(hostname)
+echo Running command 100 on $(hostname)
+echo Running command 101 on $(hostname)
+echo Running command 102 on $(hostname)
+echo Running command 103 on $(hostname)
+echo Running command 104 on $(hostname)
+echo Running command 105 on $(hostname)
+echo Running command 106 on $(hostname)
+echo Running command 107 on $(hostname)
+echo Running command 108 on $(hostname)
+echo Running command 109 on $(hostname)
+echo Running command 110 on $(hostname)
+echo Running command 111 on $(hostname)
+echo Running command 112 on $(hostname)
+echo Running command 113 on $(hostname)
+echo Running command 114 on $(hostname)
+echo Running command 115 on $(hostname)
+echo Running command 116 on $(hostname)
+echo Running command 117 on $(hostname)
+echo Running command 118 on $(hostname)
+echo Running command 119 on $(hostname)
+echo Running command 120 on $(hostname)
+echo Running command 121 on $(hostname)
+echo Running command 122 on $(hostname)
+echo Running command 123 on $(hostname)
+echo Running command 124 on $(hostname)
+echo Running command 125 on $(hostname)
+echo Running command 126 on $(hostname)
+echo Running command 127 on $(hostname)
+echo Running command 128 on $(hostname)
+echo Running command 129 on $(hostname)
+echo Running command 130 on $(hostname)
+echo Running command 131 on $(hostname)
+echo Running command 132 on $(hostname)
+echo Running command 133 on $(hostname)
+echo Running command 134 on $(hostname)
+echo Running command 135 on $(hostname)
+echo Running command 136 on $(hostname)
+echo Running command 137 on $(hostname)
+echo Running command 138 on $(hostname)
+echo Running command 139 on $(hostname)
+echo Running command 140 on $(hostname)
+echo Running command 141 on $(hostname)
+echo Running command 142 on $(hostname)
+echo Running command 143 on $(hostname)
+echo Running command 144 on $(hostname)
+echo Running command 145 on $(hostname)
+echo Running command 146 on $(hostname)
+echo Running command 147 on $(hostname)
+echo Running command 148 on $(hostname)
+echo Running command 149 on $(hostname)
+echo Running command 150 on $(hostname)
+echo Running command 151 on $(hostname)
+echo Running command 152 on $(hostname)
+echo Running command 153 on $(hostname)
+echo Running command 154 on $(hostname)
+echo Running command 155 on $(hostname)
+echo Running command 156 on $(hostname)
+echo Running command 157 on $(hostname)
+echo Running command 158 on $(hostname)
+echo Running command 159 on $(hostname)
+echo Running command 160 on $(hostname)
+echo Running command 161 on $(hostname)
+echo Running command 162 on $(hostname)
+echo Running command 163 on $(hostname)
+echo Running command 164 on $(hostname)
+echo Running command 165 on $(hostname)
+echo Running command 166 on $(hostname)
+echo Running command 167 on $(hostname)
+echo Running command 168 on $(hostname)
+echo Running command 169 on $(hostname)
+echo Running command 170 on $(hostname)
+echo Running command 171 on $(hostname)
+echo Running command 172 on $(hostname)
+echo Running command 173 on $(hostname)
+echo Running command 174 on $(hostname)
+echo Running command 175 on $(hostname)
+echo Running command 176 on $(hostname)
+echo Running command 177 on $(hostname)
+echo Running command 178 on $(hostname)
+echo Running command 179 on $(hostname)
+echo Running command 180 on $(hostname)
+echo Running command 181 on $(hostname)
+echo Running command 182 on $(hostname)
+echo Running command 183 on $(hostname)
+echo Running command 184 on $(hostname)
+echo Running command 185 on $(hostname)
+echo Running command 186 on $(hostname)
+echo Running command 187 on $(hostname)
+echo Running command 188 on $(hostname)
+echo Running command 189 on $(hostname)
+echo Running command 190 on $(hostname)
+echo Running command 191 on $(hostname)
+echo Running command 192 on $(hostname)
+echo Running command 193 on $(hostname)
+echo Running command 194 on $(hostname)
+echo Running command 195 on $(hostname)
+echo Running command 196 on $(hostname)
+echo Running command 197 on $(hostname)
+echo Running command 198 on $(hostname)
+echo Running command 199 on $(hostname)
+echo Running command 200 on $(hostname)
+echo Running command 201 on $(hostname)
+echo Running command 202 on $(hostname)
+echo Running command 203 on $(hostname)
+echo Running command 204 on $(hostname)
+echo Running command 205 on $(hostname)
+echo Running command 206 on $(hostname)
+echo Running command 207 on $(hostname)
+echo Running command 208 on $(hostname)
+echo Running command 209 on $(hostname)
+echo Running command 210 on $(hostname)
+echo Running command 211 on $(hostname)
+echo Running command 212 on $(hostname)
+echo Running command 213 on $(hostname)
+echo Running command 214 on $(hostname)
+echo Running command 215 on $(hostname)
+echo Running command 216 on $(hostname)
+echo Running command 217 on $(hostname)
+echo Running command 218 on $(hostname)
+echo Running command 219 on $(hostname)
+echo Running command 220 on $(hostname)
+echo Running command 221 on $(hostname)
+echo Running command 222 on $(hostname)
+echo Running command 223 on $(hostname)
+echo Running command 224 on $(hostname)
+echo Running command 225 on $(hostname)
+echo Running command 226 on $(hostname)
+echo Running command 227 on $(hostname)
+echo Running command 228 on $(hostname)
+echo Running command 229 on $(hostname)
+echo Running command 230 on $(hostname)
+echo Running command 231 on $(hostname)
+echo Running command 232 on $(hostname)
+echo Running command 233 on $(hostname)
+echo Running command 234 on $(hostname)
+echo Running command 235 on $(hostname)
+echo Running command 236 on $(hostname)
+echo Running command 237 on $(hostname)
+echo Running command 238 on $(hostname)
+echo Running command 239 on $(hostname)
+echo Running command 240 on $(hostname)
+echo Running command 241 on $(hostname)
+echo Running command 242 on $(hostname)
+echo Running command 243 on $(hostname)
+echo Running command 244 on $(hostname)
+echo Running command 245 on $(hostname)
+echo Running command 246 on $(hostname)
+echo Running command 247 on $(hostname)
+echo Running command 248 on $(hostname)
+echo Running command 249 on $(hostname)
+echo Running command 250 on $(hostname)
+echo Running command 251 on $(hostname)
+echo Running command 252 on $(hostname)
+echo Running command 253 on $(hostname)
+echo Running command 254 on $(hostname)
+echo Running command 255 on $(hostname)
+echo Running command 256 on $(hostname)
+echo Running command 257 on $(hostname)
+echo Running command 258 on $(hostname)
