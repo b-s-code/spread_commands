@@ -15,6 +15,10 @@ As a HPC workflow developer, I want an easy way to distribute a list of commands
 
 Because spread_commands is optimised to minimise wall time, it is cost-inefficient for cases where the memory used per process is much less than a node's memory per CPU core.
 
+The processes run by each command are not explicity bound to specific CPU cores.
+
+No --time value is set in SBATCH directive so a default value will be used.
+
 ## Interface
 
 `spread_commands path/to/commands.txt`
