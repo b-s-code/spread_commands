@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+
+import os
+import sys
+import math
+
+CORES_PER_NODE = 128
+
+# --cpus-per-task is given value {tasks} instead of 1 because we want to give
+# all available cores on the node to the Python program will will spawn
+# many subprocesses.
+SBATCH_TEMPLATE = """#!/bin/bash --login
+#SBATCH --nodes=1
+#SBATCH --ntasks={ntasks}
+#SBATCH --cpus-per-task={ntasks}
+#SBATCH --job-name=spread_cmds_node_{node_id}
+#SBATCH --output=spread_cmds_node_{node_id}.out
+
+srun python3 spread_commands_within_node.py {start_line} {end_line} {commands_file}
+"""
+
+def main():
+    # Bail early if incorrect CLI args.
+    if len(sys.argv) != 2:
+        print("Usage: spread_commands path/to/commands.txt")
+        sys.exit(1)
+
+    # Determine how many commands are specified and thus required number of nodes.
+    commands_file = sys.argv[1]
+    with open(commands_file, 'r') as f:
+        # Discard any empty lines *before* counting commands (as lines).
+        commands = [line.strip() for line in f if line.strip()]
+    num_commands = len(commands)
+    num_nodes = math.ceil(num_commands / CORES_PER_NODE)
+
+    # node_id is *not* the node hostname, just a 0-based index.
+    for node_id in range(num_nodes):
+        start_line = node_id * CORES_PER_NODE
+
+        # Need to account for case where number of commands is not an
+        # exact multiple of number of CPU cores per node.
+        # TODO : off by one?
+        end_line = min((node_id + 1) * CORES_PER_NODE, num_commands)
+
+        # Generate batch script for current node index.
+        sbatch_script = SBATCH_TEMPLATE.format(
+            ntasks=end_line - start_line, # TODO : off by one?
+            node_id=node_id,
+            start_line=start_line,
+            end_line=end_line,
+            commands_file=commands_file
+        )
+        script_filename = f"spread_node_{node_id}.slurm"
+        with open(script_filename, 'w') as f:
+            f.write(sbatch_script)
+
+        # Run generated batch script.
+        subprocess.run(['sbatch', script_filename])
+
+if __name__ == "__main__":
+    main()

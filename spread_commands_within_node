@@ -4,23 +4,26 @@ import sys
 import subprocess
 
 def main():
+    # Bail early if incorrect CLI args.
     if len(sys.argv) != 4:
         print("Usage: spread_commands_within_node.py start_line end_line path/to/commands.txt")
         sys.exit(1)
 
+    # Determine relevant commands to run.
     start_line = int(sys.argv[1])
     end_line = int(sys.argv[2])
     commands_file = sys.argv[3]
-
     with open(commands_file, 'r') as f:
+        # Excluding empty lines is *critical* since start_line and end_line were
+        # determined with empty lines excluded.
         all_commands = [line.strip() for line in f if line.strip()]
-    selected_commands = all_commands[start_line:end_line]
+    selected_commands = all_commands[start_line:end_line] # TODO : off by one?
 
+    # Run each command and wait until all finish.
     processes = []
     for cmd in selected_commands:
         print(f"Running: {cmd}")
         processes.append(subprocess.Popen(cmd, shell=True))
-
     for p in processes:
         p.wait()
 
