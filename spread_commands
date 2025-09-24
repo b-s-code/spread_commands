@@ -39,12 +39,11 @@ def main():
 
         # Need to account for case where number of commands is not an
         # exact multiple of number of CPU cores per node.
-        # TODO : off by one?
         end_line = min((node_id + 1) * CORES_PER_NODE, num_commands)
 
         # Generate batch script for current node index.
         sbatch_script = SBATCH_TEMPLATE.format(
-            ntasks=end_line - start_line, # TODO : off by one?
+            ntasks=end_line - start_line,
             node_id=node_id,
             start_line=start_line,
             end_line=end_line,

@@ -17,7 +17,7 @@ def main():
         # Excluding empty lines is *critical* since start_line and end_line were
         # determined with empty lines excluded.
         all_commands = [line.strip() for line in f if line.strip()]
-    selected_commands = all_commands[start_line:end_line] # TODO : off by one?
+    selected_commands = all_commands[start_line:end_line]
 
     # Run each command and wait until all finish.
     processes = []
