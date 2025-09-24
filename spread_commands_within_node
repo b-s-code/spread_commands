@@ -22,7 +22,6 @@ def main():
     # Run each command and wait until all finish.
     processes = []
     for cmd in selected_commands:
-        print(f"Running: {cmd}")
         processes.append(subprocess.Popen(cmd, shell=True))
     for p in processes:
         p.wait()
