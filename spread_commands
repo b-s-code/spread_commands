@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-import os
 import sys
 import math
+import subprocess
 
 CORES_PER_NODE = 128
 
@@ -11,12 +11,12 @@ CORES_PER_NODE = 128
 # many subprocesses.
 SBATCH_TEMPLATE = """#!/bin/bash --login
 #SBATCH --nodes=1
-#SBATCH --ntasks={ntasks}
+#SBATCH --ntasks=1
 #SBATCH --cpus-per-task={ntasks}
 #SBATCH --job-name=spread_cmds_node_{node_id}
 #SBATCH --output=spread_cmds_node_{node_id}.out
 
-srun python3 spread_commands_within_node.py {start_line} {end_line} {commands_file}
+srun python3 spread_commands_within_node {start_line} {end_line} {commands_file}
 """
 
 def main():

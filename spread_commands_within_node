@@ -6,7 +6,7 @@ import subprocess
 def main():
     # Bail early if incorrect CLI args.
     if len(sys.argv) != 4:
-        print("Usage: spread_commands_within_node.py start_line end_line path/to/commands.txt")
+        print("Usage: spread_commands_within_node start_line end_line path/to/commands.txt")
         sys.exit(1)
 
     # Determine relevant commands to run.
